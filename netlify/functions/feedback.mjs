@@ -1,19 +1,14 @@
-import { timingSafeEqual } from 'node:crypto';
+import {validSession} from './auth.mjs';
 
 const members = new Set(['adult-1','adult-2','kid-1','kid-2']);
 const fields = new Set(['favorite','request']);
 const slug = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 function reply(statusCode, data) { return {statusCode, headers:{'Content-Type':'application/json','Cache-Control':'no-store'}, body:JSON.stringify(data)}; }
-function validCode(actual, expected) {
-  if (!actual || !expected) return false;
-  const a=Buffer.from(actual), b=Buffer.from(expected);
-  return a.length===b.length && timingSafeEqual(a,b);
-}
 export async function handler(event) {
   if (!['GET','POST'].includes(event.httpMethod)) return reply(405,{error:'Method not allowed'});
   const url=process.env.SUPABASE_URL, key=process.env.SUPABASE_SERVICE_ROLE_KEY, code=process.env.FAMILY_ACCESS_CODE;
   if (!url || !key || !code) return reply(503,{error:'Shared database is not configured yet'});
-  if (!validCode(event.headers['x-family-code'],code)) return reply(401,{error:'Invalid family access code'});
+  if (!validSession(event)) return reply(401,{error:'Invalid family access code'});
   const base=url.replace(/\/$/,'')+'/rest/v1/meal_feedback';
   const headers={'apikey':key,'Authorization':'Bearer '+key,'Content-Type':'application/json'};
   try {
