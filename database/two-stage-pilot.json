@@ -1,0 +1,312 @@
+[
+  {
+    "id": "M01",
+    "name": "Chicken Tinga Tacos",
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "Boneless skinless chicken breast",
+        "amount": 1600,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Yellow onion, diced",
+        "amount": 220,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": 25,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Chipotle peppers in adobo, chopped",
+        "amount": 100,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Crushed tomatoes",
+        "amount": 650,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Low-sodium chicken stock",
+        "amount": 300,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Olive oil",
+        "amount": 15,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Ground cumin",
+        "amount": 6,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Dried oregano",
+        "amount": 3,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Smoked paprika",
+        "amount": 2,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Ground coriander",
+        "amount": 1,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Corn tortillas",
+        "amount": 320,
+        "unit": "g",
+        "stage": "Weeknight"
+      },
+      {
+        "name": "Cooked black beans",
+        "amount": 400,
+        "unit": "g",
+        "stage": "Weeknight"
+      },
+      {
+        "name": "Fresh cilantro",
+        "amount": 40,
+        "unit": "g",
+        "stage": "Weeknight"
+      }
+    ],
+    "sunday_steps": [
+      "Sauté onion in olive oil until softened, 5–7 minutes. Add garlic, cumin, oregano, paprika, and coriander; stir for 30 seconds.",
+      "Add chipotles, tomatoes and stock; nestle chicken in sauce. Simmer covered until the thickest part reaches 165°F (74°C).",
+      "Shred chicken into sauce. Cool rapidly in shallow containers and divide into meal-sized portions; refrigerate for use within 3–4 days or freeze promptly."
+    ],
+    "weeknight_steps": [
+      "Reheat chicken and sauce until steaming hot (165°F / 74°C).",
+      "Heat black beans and warm tortillas; assemble with cilantro."
+    ],
+    "storage": "Refrigerate cooked chicken up to 3–4 days, or freeze meal-sized portions. Thaw frozen portions in the refrigerator; avoid countertop thawing.",
+    "weeknight_active_min": 7,
+    "notes": "Tortillas, beans, and cilantro are finished on serving day. Optional pickled onions are a separate recipe component, not included in the current ingredient/nutrition totals.",
+    "prep_model_version": 2,
+    "nutrition_status": "needs_recalculation"
+  },
+  {
+    "id": "M15",
+    "name": "Miso-Ginger Salmon Rice Bowl",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Salmon fillet",
+        "amount": 1000,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "White miso paste",
+        "amount": 85,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Reduced-sodium soy sauce",
+        "amount": 45,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Honey",
+        "amount": 35,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Fresh ginger, grated",
+        "amount": 20,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Cooked rice",
+        "amount": 600,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Shelled edamame",
+        "amount": 400,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Carrots, shredded",
+        "amount": 200,
+        "unit": "g",
+        "stage": "Sunday"
+      }
+    ],
+    "sunday_steps": [
+      "Mix miso, soy sauce, honey and grated ginger. Reserve a portion for finishing before it contacts raw fish.",
+      "Roast salmon to 145°F (63°C). Cool promptly and refrigerate in shallow sealed portions.",
+      "Cook rice, then cool it rapidly and refrigerate promptly; cook edamame and carrots. Store each component separately."
+    ],
+    "weeknight_steps": [
+      "Reheat rice, salmon and edamame until steaming hot (165°F / 74°C for reheated leftovers).",
+      "Assemble bowls with carrots and reserved sauce. Add fresh cucumber or scallions only if purchased separately; they are not included in the nutrition estimate."
+    ],
+    "storage": "Cooked fish and rice should be refrigerated promptly and eaten within 3–4 days. Schedule early in the week; do not hold Sunday-cooked salmon until Friday.",
+    "weeknight_active_min": 5,
+    "notes": "The source workbook's 1,278 kcal estimate appears inconsistent with these ingredient quantities. Nutrition is flagged for recalculation before shopping or target-based planning.",
+    "prep_model_version": 2,
+    "nutrition_status": "needs_recalculation"
+  },
+  {
+    "id": "M22",
+    "name": "Chicken Shawarma Fattoush",
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Boneless skinless chicken breast",
+        "amount": 900,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Plain Greek yogurt (2%)",
+        "amount": 260,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Tahini",
+        "amount": 75,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": 90,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": 25,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Olive oil",
+        "amount": 25,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Ground cumin",
+        "amount": 7,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Ground coriander",
+        "amount": 5,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Smoked paprika",
+        "amount": 4,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Ground turmeric",
+        "amount": 2,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Ground cinnamon",
+        "amount": 1,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Ground black pepper",
+        "amount": 2,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Ground allspice",
+        "amount": 1,
+        "unit": "g",
+        "stage": "Sunday"
+      },
+      {
+        "name": "Romaine lettuce",
+        "amount": 500,
+        "unit": "g",
+        "stage": "Weeknight"
+      },
+      {
+        "name": "Tomatoes",
+        "amount": 400,
+        "unit": "g",
+        "stage": "Weeknight"
+      },
+      {
+        "name": "Cucumber",
+        "amount": 400,
+        "unit": "g",
+        "stage": "Weeknight"
+      },
+      {
+        "name": "Pita bread",
+        "amount": 220,
+        "unit": "g",
+        "stage": "Weeknight"
+      },
+      {
+        "name": "Fresh flat-leaf parsley",
+        "amount": 30,
+        "unit": "g",
+        "stage": "Weeknight"
+      },
+      {
+        "name": "Fresh mint",
+        "amount": 20,
+        "unit": "g",
+        "stage": "Weeknight"
+      }
+    ],
+    "sunday_steps": [
+      "Combine cumin, coriander, paprika, turmeric, cinnamon, pepper and allspice. Coat chicken with half the lemon juice, garlic, olive oil and spices.",
+      "Roast chicken to 165°F (74°C); cool rapidly and refrigerate or freeze in portions.",
+      "Mix yogurt, tahini and remaining lemon juice with water as needed for a pourable dressing. Refrigerate separately. Wash and dry romaine thoroughly; keep whole leaves crisp."
+    ],
+    "weeknight_steps": [
+      "Reheat chicken thoroughly, or serve cold if properly refrigerated and within the safe storage window.",
+      "Chop romaine, tomatoes, cucumber, parsley and mint. Toast pita until crisp.",
+      "Toss vegetables with chicken, top with crisp pita, and drizzle with yogurt-tahini dressing immediately before serving."
+    ],
+    "storage": "Cooked chicken keeps 3–4 days refrigerated; freeze portions for later in the week. Keep vegetables dry, dressing separate, and pita unassembled until serving.",
+    "weeknight_active_min": 8,
+    "notes": "Spice blend is now itemized. Fresh herbs are specified as parsley and mint. Yogurt-tahini sauce is an explicit component; nutrition should be recalculated after ingredient normalization.",
+    "prep_model_version": 2,
+    "nutrition_status": "needs_recalculation"
+  }
+]
